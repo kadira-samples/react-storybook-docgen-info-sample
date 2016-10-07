@@ -1,0 +1,4 @@
+{
+  "presets": ["babel-preset-react-app"],
+  "plugins": ["@kadira/babel-plugin-react-docgen"]
+}
