@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "@kadira/babel-plugin-react-docgen": "^1.0.2",
     "@kadira/storybook": "^2.5.2",
     "babel-preset-react-app": "^0.2.1",
     "moment": "^2.15.1",
@@ -12,6 +11,8 @@
     "react-scripts": "0.6.1"
   },
   "dependencies": {
+    "@kadira/storybook-deployer": "^1.2.0",
+    "babel-plugin-react-docgen": "^1.2.0",
     "react": "^15.3.2",
     "react-dom": "^15.3.2"
   },
