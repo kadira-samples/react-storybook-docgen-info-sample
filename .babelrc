@@ -1,4 +1,4 @@
 {
   "presets": ["babel-preset-react-app"],
-  "plugins": ["@kadira/babel-plugin-react-docgen"]
+  "plugins":[["babel-plugin-react-docgen", {"DOC_GEN_GLOBAL": "STORYBOOK_REACT_CLASSES"}]]
 }

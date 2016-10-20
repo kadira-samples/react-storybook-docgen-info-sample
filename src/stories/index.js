@@ -6,13 +6,17 @@ import CalanderDay from './CalanderDay';
 
 storiesOf('Welcome', module)
   .add('with docgeninfo', () => (
-      <pre><code> {JSON.stringify(JSON.parse(Welcome.__docgenInfo), null, 2) } </code></pre>
+      <pre><code> {JSON.stringify(Welcome.__docgenInfo, null, 2) } </code></pre>
   ));
 storiesOf('Button', module)
   .add('with docgeninfo', () => (
-      <pre><code> {JSON.stringify(JSON.parse(Button.__docgenInfo), null, 2) } </code></pre>
+      <pre><code> {JSON.stringify(Button.__docgenInfo, null, 2) } </code></pre>
   ));
 storiesOf('CalanderDay', module)
   .add('with docgeninfo', () => (
-      <pre><code> {JSON.stringify(JSON.parse(CalanderDay.__docgenInfo), null, 2) } </code></pre>
+      <pre><code> {JSON.stringify(CalanderDay.__docgenInfo, null, 2) } </code></pre>
+  ));
+storiesOf('Global Object', module)
+  .add('with docgeninfo', () => (
+      <pre><code> {JSON.stringify(STORYBOOK_REACT_CLASSES, null, 2) } </code></pre>
   ));
