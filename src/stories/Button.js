@@ -10,6 +10,9 @@ const buttonStyles = {
   margin: 10,
 };
 
+/**
+  This is a simple button component for React.
+*/
 export default class Button extends React.Component {
   render() {
     return (<button
@@ -22,6 +25,17 @@ export default class Button extends React.Component {
 };
 
 Button.propTypes = {
+  /**
+    Label to show inside the button.
+  */
   children: React.PropTypes.string.isRequired,
+
+  /**
+    Called when clicked on the button.
+  */
   onClick: React.PropTypes.func,
+};
+
+Button.defaultProps = {
+  onClick() {}
 };

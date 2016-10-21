@@ -3,8 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "@kadira/storybook": "^2.5.2",
-    "babel-preset-react-app": "^0.2.1",
+    "@kadira/storybook": "^2.25.0",
     "moment": "^2.15.1",
     "react-addons-shallow-compare": "^15.3.2",
     "react-moment-proptypes": "^1.2.0",
