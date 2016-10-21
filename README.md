@@ -1,5 +1,10 @@
-## babel-plugin-react-docgen sample
+## Accessing react-docgen with React Storybook.
+
+![Screenshot](docs/screenshot.png)
 
 ### Usage
-* `npm i`
-* `npm run storybook`
+
+```sh
+npm i
+npm run storybook
+```
